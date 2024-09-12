@@ -80,7 +80,7 @@ nav {
 		top: 0;
 		right: -300px;
 		transition: .5s;
-		gap: 20px;
+		gap: 30px;
 		flex-direction: column;
 		background-color: #212121;
 		width: 200px;
