@@ -27,6 +27,7 @@ const Navbar = () => {
 		e.stopPropagation()
 		console.log('close')
 	}
+	
 	return (
 		<nav>
 			<div className='container'>

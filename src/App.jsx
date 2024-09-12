@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import IPad from './pages/iPad'
 import IPhone from './pages/iPhone'
 import MacBook from './pages/MacBook'
+import NotFound from './pages/NotFound'
 
 const App = () => {
 	return (
@@ -19,6 +20,7 @@ const App = () => {
 					<Route path='/ipad' element={<IPad />} />
 					<Route path='/airpods' element={<AirPods />} />
 				</Route>
+				<Route path='*' element={<NotFound/>} />
 			</Routes>
 		</BrowserRouter>
 
