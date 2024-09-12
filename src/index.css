@@ -12,3 +12,14 @@
 	width: 80%;
 	margin: 0	auto;
 }
+
+
+.outlet-section {
+	height: 500px;
+	background-color: orange;
+}
+
+
+a.active {
+	color: white;
+}

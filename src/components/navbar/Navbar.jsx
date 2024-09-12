@@ -32,28 +32,50 @@ const Navbar = () => {
 			<div className='container'>
 				<div className={style['nav-row']}>
 					<div className={style['logo']}>
-						<a href='/'>
+						<NavLink onClick={handleCloseMenu} to={'/'}>
 							<img src='apple.svg' alt='logo' />
-						</a>
+						</NavLink>
 					</div>
-					<ul
-						className={`${style['list-item']} ${show ? style['show'] : ''}`}
-					>
+					<ul className={`${style['list-item']} ${show ? style['show'] : ''}`}>
 						<IoMdCloseCircle
 							onClick={handleCloseMenu}
 							className={style['close-bar']}
 						/>
 						<li className={style['list-items']}>
-							<NavLink className={style['list-items-link']}>MacBook</NavLink>
+							<NavLink
+								onClick={handleCloseMenu}
+								to={'/macbook'}
+								className={style['list-items-link']}
+							>
+								MacBook
+							</NavLink>
 						</li>
 						<li className={style['list-items']}>
-							<NavLink className={style['list-items-link']}>Iphone</NavLink>
+							<NavLink
+								onClick={handleCloseMenu}
+								to={'/iphone'}
+								className={style['list-items-link']}
+							>
+								Iphone
+							</NavLink>
 						</li>
 						<li className={style['list-items']}>
-							<NavLink className={style['list-items-link']}>Ipad</NavLink>
+							<NavLink
+								onClick={handleCloseMenu}
+								to={'/ipad'}
+								className={style['list-items-link']}
+							>
+								Ipad
+							</NavLink>
 						</li>
 						<li className={style['list-items']}>
-							<NavLink className={style['list-items-link']}>Airpods</NavLink>
+							<NavLink
+								onClick={handleCloseMenu}
+								to={'/airpods'}
+								className={style['list-items-link']}
+							>
+								Airpods
+							</NavLink>
 						</li>
 					</ul>
 
