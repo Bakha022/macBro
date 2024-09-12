@@ -81,11 +81,10 @@ nav {
 	}
 
 	.list-item.show{
-		display: block !important;
 		display: flex;
+		gap: 20px;
 		flex-direction: column;
 		position: absolute;
-		gap: 20px;
 		right: 0px;
 		top: 0px;
 		background-color: #212121;
@@ -100,6 +99,7 @@ nav {
 		color: white;
 		font-size: 28px;
 		position: absolute;
+		z-index: 50;
 		right: 10px;
 		top: 10px;
 	}

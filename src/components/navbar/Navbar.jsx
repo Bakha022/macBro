@@ -37,7 +37,6 @@ const Navbar = () => {
 						</a>
 					</div>
 					<ul
-						id='hello'
 						className={`${style['list-item']} ${show ? style['show'] : ''}`}
 					>
 						<IoMdCloseCircle
