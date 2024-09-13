@@ -3,24 +3,45 @@ import React from 'react'
 import { Autoplay, Navigation, Pagination } from 'swiper/modules'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
-import ButtonComponent from '../button/ButtonComponent'
 
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
-import style from './HeroComponent.module.css'
+import HeroItemComponent from '../heroItem/HeroItemComponent'
 
 const HeroComponent = () => {
+	const arr = [
+		{
+			title: 'Macbook Air 2020',
+			className: '',
+			img: './macbook.png',
+		},
+		{
+			title: 'iPhone 13',
+			className: 'iphone-img',
+			img: './iphone13.png',
+		},
+		{
+			title: 'iPad Pro',
+			className: 'ipad-img',
+			img: './dsdasdasdasd.png',
+		},
+		{
+			title: 'Air Pods 2020',
+			className: 'airpods-img',
+			img: './airpods.png',
+		},
+	]
 	return (
 		<>
 			<Swiper
 				spaceBetween={30}
 				centeredSlides={true}
-				autoplay={{
-					delay: 2500,
-					disableOnInteraction: false,
-				}}
+				// autoplay={{
+				// 	delay: 2500,
+				// 	disableOnInteraction: false,
+				// }}
 				pagination={{
 					clickable: true,
 				}}
@@ -28,43 +49,13 @@ const HeroComponent = () => {
 				className='mySwiper'
 			>
 				<div className='container'>
-					<SwiperSlide>
-						<h1 className={style['hero-title']}>MacBook Air 2020</h1>
-						<div className={style['line']}></div>
-						<p className={style['hero-subtitle']}>
-							The modern technologies with sufficient conditions just buy it
-							because we are apple and you need to buy
-						</p>
-						<div className={style['hero-img']}>
-							<img src='./macbook.png' alt='hero-img' />
-						</div>
-						<ButtonComponent props={'Add Cart'} />
-					</SwiperSlide>
+					{arr.map((item, key) => (
+						<SwiperSlide key={key}>
+							{' '}
+							<HeroItemComponent props={item} />{' '}
+						</SwiperSlide>
+					))}
 				</div>
-				<SwiperSlide>
-					<h1 className={style['hero-title']}>iPhone 13</h1>
-					<div className={style['line']}></div>
-					<p className={style['hero-subtitle']}>
-						The modern technologies with sufficient conditions just buy it
-						because we are apple and you need to buy
-					</p>
-					<div className={style['hero-img']}>
-						<img className={style['iphone-img']} src='./iphone13.png' alt='hero-img' />
-					</div>
-					<ButtonComponent props={'Add Cart'} />
-				</SwiperSlide>
-				<SwiperSlide>
-					<h1 className={style['hero-title']}>iPad Pro</h1>
-					<div className={style['line']}></div>
-					<p className={style['hero-subtitle']}>
-						The modern technologies with sufficient conditions just buy it
-						because we are apple and you need to buy
-					</p>
-					<div className={style['hero-img']}>
-						<img className={style['ipad-img']} src='./dsdasdasdasd.png' alt='hero-img' />
-					</div>
-					<ButtonComponent props={'Add Cart'} />
-				</SwiperSlide>
 			</Swiper>
 		</>
 	)
