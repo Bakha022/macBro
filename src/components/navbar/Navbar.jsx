@@ -82,7 +82,8 @@ const Navbar = () => {
 
 					<aside className={style['nav-icons']}>
 						<IoSearch />
-						<NavLink>
+						<NavLink onClick={handleCloseMenu}
+								to={'/cart'}>
 							<IoCart />
 						</NavLink>
 						<div className={style['responsive-bars']}>

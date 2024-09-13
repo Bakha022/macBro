@@ -12,10 +12,10 @@
 	margin: 0 auto;
 }
 
-.outlet-section {
+/* .outlet-section {
 	height: 500px;
 	background-color: orange;
-}
+} */
 
 a.active {
 	color: white;
@@ -45,7 +45,6 @@ a.active {
 	font-weight: 500;
 }
 
-
 @media (max-width: 450px) {
 	.not-found-page-title {
 		font-size: 120px;
@@ -66,4 +65,20 @@ a.active {
 		font-size: 18px;
 		margin-bottom: 15px;
 	}
+}
+
+.swiper {
+	width: 100%;
+	height: auto;
+	padding: 100px 0;
+	background-color: #0C0C0C;
+}
+
+.swiper-slide {
+	text-align: center;
+	/* Center slide text vertically */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }

@@ -3,6 +3,7 @@ import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Layout from './components/Layout'
 import AirPods from './pages/AirPods'
+import { Cart } from './pages/Cart'
 import Home from './pages/Home'
 import IPad from './pages/iPad'
 import IPhone from './pages/iPhone'
@@ -19,8 +20,9 @@ const App = () => {
 					<Route path='/iphone' element={<IPhone />} />
 					<Route path='/ipad' element={<IPad />} />
 					<Route path='/airpods' element={<AirPods />} />
+					<Route path='/cart' element={<Cart />} />
 				</Route>
-				<Route path='*' element={<NotFound/>} />
+				<Route path='*' element={<NotFound />} />
 			</Routes>
 		</BrowserRouter>
 

@@ -58,7 +58,7 @@ const Footer = () => {
 				<div className={style['footer-bottom']}>
 					<h1 className={style['footer-title']}>Apple</h1>
 					<hr />
-					<p className={style['footer-subtitle']}>2020 copyright</p>
+					<p className={style['footer-subtitle']}>2020 BakhaDev</p>
 				</div>
 			</div>
 		</div>
