@@ -42,7 +42,7 @@ const HeroComponent = () => {
 					</SwiperSlide>
 				</div>
 				<SwiperSlide>
-					<h1 className={style['hero-title']}>MacBook Air 2020</h1>
+					<h1 className={style['hero-title']}>iPhone 13</h1>
 					<div className={style['line']}></div>
 					<p className={style['hero-subtitle']}>
 						The modern technologies with sufficient conditions just buy it
@@ -50,6 +50,18 @@ const HeroComponent = () => {
 					</p>
 					<div className={style['hero-img']}>
 						<img className={style['iphone-img']} src='./iphone13.png' alt='hero-img' />
+					</div>
+					<ButtonComponent props={'Add Cart'} />
+				</SwiperSlide>
+				<SwiperSlide>
+					<h1 className={style['hero-title']}>iPad Pro</h1>
+					<div className={style['line']}></div>
+					<p className={style['hero-subtitle']}>
+						The modern technologies with sufficient conditions just buy it
+						because we are apple and you need to buy
+					</p>
+					<div className={style['hero-img']}>
+						<img className={style['ipad-img']} src='./dsdasdasdasd.png' alt='hero-img' />
 					</div>
 					<ButtonComponent props={'Add Cart'} />
 				</SwiperSlide>

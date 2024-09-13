@@ -74,6 +74,7 @@ nav {
 
 	.list-item {
 		position: fixed;
+		z-index: 20;
 		top: 0;
 		right: -300px;
 		transition: .5s;
