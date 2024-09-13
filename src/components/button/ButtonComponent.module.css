@@ -1,0 +1,41 @@
+.button-component {
+	margin-top: 20px;
+	background: none;
+	border: none;
+}
+
+.button-component a {
+	padding: 18px 46px;
+	border: none;
+	border-radius: 5px;
+	background: linear-gradient(259.49deg, #2575fc 1.69%, #6a11cb 73.5%);
+	cursor: pointer;
+	color: white;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 17.07px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.button-component a:hover {
+	transition: 0.5s;
+	box-shadow: 0 0 5px #6a11cb, 0 0 25px #6a11cb, 0 0 50px #2575fc,
+		0 0 200px #03e9f4;
+	--webkit-box-reflect: below 1px linear-gradient(transparent, #03e9f4);
+}
+
+@media (max-width: 380px) {
+	.button-component a {
+		padding: 14px 40px;
+	}
+}
+
+
+
+@media (max-width: 380px) {
+	.button-component a {
+		padding: 14px 30px;
+	}
+} 

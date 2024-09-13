@@ -45,33 +45,8 @@ a.active {
 	font-weight: 500;
 }
 
-.not-found-btn {
-	padding: 18px 46px;
-	border: none;
-	border-radius: 5px;
-	background: linear-gradient(259.49deg, #2575fc 1.69%, #6a11cb 73.5%);
-	cursor: pointer;
-}
 
-.not-found-btn a {
-	color: white;
-	font-family: Montserrat;
-	font-size: 14px;
-	font-weight: 500;
-	line-height: 17.07px;
-	text-decoration: none;
-}
-
-
-@media (max-width: 552px) {
-	.not-found-page-title {
-		font-size: 150px;
-	}
-}
-
-
-
-@media (max-width: 373px) {
+@media (max-width: 450px) {
 	.not-found-page-title {
 		font-size: 120px;
 	}
@@ -80,9 +55,15 @@ a.active {
 		font-size: 20px;
 		margin-bottom: 30px;
 	}
+}
 
+@media (max-width: 380px) {
+	.not-found-page-title {
+		font-size: 100px;
+	}
 
-	.not-found-btn {
-		padding: 14px 40px;
+	.not-found-page-subtitle {
+		font-size: 18px;
+		margin-bottom: 15px;
 	}
 }
