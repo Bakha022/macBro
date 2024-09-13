@@ -32,14 +32,6 @@
 	width: 560px;
 }
 
-.line {
-	width: 80px;
-	height: 5px;
-	background: linear-gradient(259.49deg, #2575fc 1.69%, #6a11cb 73.5%);
-	border-radius: 5px;
-	margin: 8px 0;
-}
-
 .iphone-img {
 	width: 600px !important;
 }
@@ -96,10 +88,6 @@
 		width: 350px;
 		font-size: 14px;
 	}
-
-	.line {
-		height: 3px;
-	}
 	.iphone-img {
 		width: 380px !important;
 	}
@@ -116,10 +104,6 @@
 	.hero-subtitle {
 		width: 300px;
 		font-size: 14px;
-	}
-
-	.line {
-		height: 3px;
 	}
 	.iphone-img {
 		width: 350px !important;

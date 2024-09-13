@@ -3,13 +3,14 @@ import React from 'react'
 import ButtonComponent from '../button/ButtonComponent'
 
 import style from './HeroItem.module.css'
+import LineComponent from '../line/LineComponent'
 
 const HeroItemComponent = ({props}) => {
 	const {className, title, img} = props
 	return (
 		<>
 			<h1 className={style['hero-title']}>{title}</h1>
-			<div className={style['line']}></div>
+			<LineComponent heights={5} widths={80}/>
 			<p className={style['hero-subtitle']}>
 				The modern technologies with sufficient conditions just buy it because
 				we are apple and you need to buy

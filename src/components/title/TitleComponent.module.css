@@ -1,0 +1,15 @@
+.title-before {
+	font-family: Montserrat;
+	font-weight: 700;
+	line-height: 43.88px;
+	text-align: center;
+	color: white;
+	position: relative;
+	z-index: 50;
+}
+
+@media(max-width: 375px) {
+	.title-before {
+		font-size: 32px;
+	}
+}

@@ -1,0 +1,11 @@
+.line {
+	background: linear-gradient(259.49deg, #2575fc 1.69%, #6a11cb 73.5%);
+	border-radius: 5px;
+	margin: 8px 0;
+}
+
+@media (max-width: 438px) { 
+	.line {
+		height: 3px;
+	}
+}

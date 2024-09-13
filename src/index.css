@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+body {
+	background-color: #0C0C0C;
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -11,11 +13,6 @@
 	width: 80%;
 	margin: 0 auto;
 }
-
-/* .outlet-section {
-	height: 500px;
-	background-color: orange;
-} */
 
 a.active {
 	color: white;
@@ -76,7 +73,6 @@ a.active {
 
 .swiper-slide {
 	text-align: center;
-	/* Center slide text vertically */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
