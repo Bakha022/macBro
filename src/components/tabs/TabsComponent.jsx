@@ -85,18 +85,19 @@ const TabsComponent = () => {
 			},
 			{
 				title: 'Could be good for your heart',
-				subtitle: "Apples have been linked to a lower chance of heart disease",
+				subtitle: 'Apples have been linked to a lower chance of heart disease',
 				length: '63%',
 			},
 			{
 				title: 'Linked to a lower chance of diabetes',
-				subtitle: 'Eating apples may also reduce your chance of type 2 diabetes',
+				subtitle:
+					'Eating apples may also reduce your chance of type 2 diabetes',
 				length: '51%',
 			},
 		],
 	}
 
-	// 
+	//
 
 	return (
 		<div className='container'>
@@ -146,7 +147,7 @@ const TabsComponent = () => {
 							))}
 						</TabPanel>
 						<TabPanel className={style['tab-panel']}>
-						{tabsData.fourthTab.map(({ title, subtitle, length }, key) => (
+							{tabsData.fourthTab.map(({ title, subtitle, length }, key) => (
 								<RangeComponent
 									key={key}
 									title={title}
