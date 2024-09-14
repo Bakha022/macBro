@@ -75,6 +75,12 @@ const AbilitiesComponent = () => {
 					</div>
 				</div>
 			</div>
+			<div className={style['siri-section']}>
+				<h1 className={style['siri-title']}>Siri, what makes a Mac a Mac?</h1>
+				<div className={style["siri-img"]}>
+					<img src="./siri.png" alt="siri-img" />
+				</div>
+			</div>
 		</div>
 	)
 }
