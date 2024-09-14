@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
 
-import RangeComponent from '../range/RangeComponent'
+import RangeComponent from '../rangetabs/RangeComponent'
 import style from './TabsComponent.module.css'
 
 const TabsComponent = () => {
