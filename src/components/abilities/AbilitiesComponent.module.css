@@ -196,7 +196,10 @@
 	width: 100%;
 	height: 430px;
 	border-radius: 50px;
-	background-image: url('./macImage.png');
+	background-image: url(../../../public/macImage.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 
 	display: flex;
 	flex-direction: column;
