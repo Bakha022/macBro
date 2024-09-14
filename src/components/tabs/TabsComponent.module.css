@@ -1,0 +1,63 @@
+.tab-component {
+	color: white;
+	margin: 0 auto;
+	border-radius: 50px;
+	background: #3242510d;
+	padding: 67px 150px;
+	margin-bottom: 165px;
+}
+
+.tab-title {
+	font-family: Montserrat;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 43.88px;
+	text-align: center;
+	color: white;
+}
+
+.tab-top-line {
+	width: 80%;
+	margin: 7px auto;
+	margin-bottom: 16px;
+	background: #5b5b5b40;
+	height: 2px;
+}
+
+
+
+@media(max-width: 947px) {
+	.tab-title {
+		font-size: 30px;
+		width: 100%;
+	}
+
+	.tab-top-line {
+		width: 95%;
+	}
+	
+	.tab-component {
+		padding: 50px 80px;
+	}
+}
+
+
+
+@media(max-width: 521px) {
+	.tab-component {
+		padding: 20px 30px;
+	}
+}
+
+
+
+
+@media(max-width: 374px) {
+	.tab-component {
+		padding: 15px 20px;
+	}
+
+	.tab-title {
+		font-size: 24px;
+	}
+}

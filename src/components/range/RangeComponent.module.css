@@ -1,0 +1,49 @@
+.character-title {
+	font-family: Montserrat;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36.57px;
+	color: #00f2fe;
+}
+
+.tab-item-line {
+	height: 10px;
+	border-radius: 5px;
+	background: linear-gradient(
+		269.89deg,
+		#00f2fe 8.79%,
+		rgba(79, 172, 254, 0) 142.02%
+	);
+	margin: 18px 0;
+}
+
+.character-subtitle {
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21.94px;
+	color: #d4d4d4;
+	/* margin-bottom: 70px; */
+}
+
+
+@media(max-width: 835px) {
+	.character-title {
+		font-size: 26px;
+	}
+
+	.character-subtitle {
+		font-size: 16px;
+	}
+}
+
+
+@media(max-width: 350px) {
+	.character-title {
+		font-size: 22px;
+	}
+
+	.character-subtitle {
+		font-size: 16px;
+	}
+}
