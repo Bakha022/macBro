@@ -8,7 +8,7 @@ const Home = () => {
 		<>
 			<HeroComponent />
 			<AdvantagesComponent />
-			<TabsComponent />
+			{/* <TabsComponent /> */}
 		</>
 	)
 }
