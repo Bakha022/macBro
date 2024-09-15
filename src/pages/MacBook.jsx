@@ -1,58 +1,16 @@
 import React from 'react'
+import ProductItemsComponent from '../components/productItems/ProductItemsComponent'
 
-import img from '../assets/mac/mac_4.png'
+
+import mac from '../utils/mac.db'
+
 const MacBook = () => {
 	return (
 		<div className='container'>
 			<div className='row'>
-				<div className='col-3'>
-					<div className='card'>
-						<span className='action'>9%</span>
-						<div className='card-img'>
-							<img src={img} alt='mac-img' />
-						</div>
-						<p className='hello-title'>MacBook Pro</p>
-					</div>
-					<p className='hello-text'>
-						Add to Cart
-					</p>
-				</div>
-				<div className='col-3'>
-					<div className='card'>
-						<span className='action'>9%</span>
-						<div className='card-img'>
-							<img src={img} alt='mac-img' />
-						</div>
-						<p className='hello-title'>MacBook Pro</p>
-					</div>
-					<p className='hello-text'>
-						Add to Cart
-					</p>
-				</div>
-				<div className='col-3'>
-					<div className='card'>
-						<span className='action'>9%</span>
-						<div className='card-img'>
-							<img src={img} alt='mac-img' />
-						</div>
-						<p className='hello-title'>MacBook Pro</p>
-					</div>
-					<p className='hello-text'>
-						Add to Cart
-					</p>
-				</div>
-				<div className='col-3'>
-					<div className='card'>
-						<span className='action'>9%</span>
-						<div className='card-img'>
-							<img src={img} alt='mac-img' />
-						</div>
-						<p className='hello-title'>MacBook Pro</p>
-					</div>
-					<p className='hello-text'>
-						Add to Cart
-					</p>
-				</div>
+				{
+					mac.map(({id, discount, title, price, img })=> <ProductItemsComponent key={id} id={id} discount={discount} title={title} price={price} img={img}/>)
+				}
 			</div>
 		</div>
 	)

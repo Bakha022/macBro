@@ -1,0 +1,135 @@
+.col-3 {
+	background-color: #6a11cb;
+	border-radius: 20px;
+}
+.card {
+	width: 280px;
+	text-align: center;
+	background-color: white;
+	border-radius: 20px;
+	padding-bottom: 20px;
+}
+
+.action {
+	background-color: #6a11cb;
+	display: block;
+	border-top-left-radius: 18px;
+	border-top-right-radius: 18px;
+	padding: 8px 0;
+	font-family: Montserrat;
+	font-weight: 400;
+	line-height: 21.94px;
+	text-align: center;
+	color: white;
+}
+.mac-sell-btn {
+	background: none;
+	width: 100%;
+	border: none;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	padding: 5px 0;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+
+	font-family: Montserrat;
+	font-weight: 400;
+	line-height: 21.94px;
+	text-align: center;
+	color: white;
+}
+
+.action-calc {
+	font-family: Montserrat;
+	font-weight: 400;
+	line-height: 21.94px;
+	text-align: center;
+}
+
+.mac-title {
+	font-family: Montserrat;
+	font-weight: 400;
+	line-height: 21.94px;
+	text-align: center;
+}
+
+.card-img {
+	width: 250px;
+	margin: 0 auto;
+	margin-top: 8px;
+}
+.card-img img {
+	width: 100%;
+}
+
+.action-calc {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+}
+@media (max-width: 1124px) {
+	.card {
+		width: 250px;
+	}
+
+	.card-img {
+		width: 200px;
+	}
+}
+
+@media (max-width: 990px) {
+	.card {
+		width: 200px;
+	}
+
+	.card-img {
+		width: 160px;
+	}
+}
+
+@media (max-width: 817px) {
+	.card {
+		width: 180px;
+	}
+
+	.card-img {
+		width: 150px;
+	}
+}
+
+
+
+@media (max-width: 477px) {
+	.card {
+		width: 150px;
+	}
+
+	.card-img {
+		width: 100px;
+	}
+	.mac-title {
+		font-size: 14px;
+	}
+
+	.action-calc {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 400px) {
+	.card {
+		width: 130px;
+	}
+
+	.card-img {
+		width: 90px;
+	}
+
+	.mac-sell-btn {
+		font-size: 14px;
+	}
+}
