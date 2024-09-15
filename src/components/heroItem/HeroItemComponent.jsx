@@ -8,7 +8,7 @@ import LineComponent from '../line/LineComponent'
 const HeroItemComponent = ({props}) => {
 	const {className, title, img} = props
 	return (
-		<>
+		<div>
 			<h1 className={style['hero-title']}>{title}</h1>
 			<LineComponent heights={5} widths={80}/>
 			<p className={style['hero-subtitle']}>
@@ -19,7 +19,7 @@ const HeroItemComponent = ({props}) => {
 				<img className={`${style[`${className ? className : ''}`]}`} src={img} alt='hero-img' />
 			</div>
 			<ButtonComponent props={'Add Cart'} />
-		</>
+		</div>
 	)
 }
 

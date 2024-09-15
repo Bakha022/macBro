@@ -1,0 +1,33 @@
+.loadingPage {
+	background-color: #0C0C0C;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.loading-img img {
+	width: 400px;
+}
+
+
+@media (max-width: 768px) {
+	.loading-img img {
+		width: 350px;
+	}
+}
+
+@media (max-width: 425px) {
+	.loading-img img {
+		width: 300px;
+	}
+}
+
+
+@media (max-width: 375px) {
+	.loading-img img {
+		width: 200px;
+	}
+}

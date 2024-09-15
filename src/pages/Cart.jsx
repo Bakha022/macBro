@@ -1,7 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import LoadingComponent from '../components/loading/LoadingComponent'
 
-export const Cart = () => {
-	return (
-		<div>Cart</div>
-	)
+const Cart = () => {
+	const [call, setCall] = useState(false)
+
+	useEffect(() => {
+		setTimeout(() => {
+			setCall(true)
+		}, 200)
+	})
+	if (call) {
+		return <div>Cart</div>
+	}
+
+	return <LoadingComponent />
 }
+
+export default Cart
