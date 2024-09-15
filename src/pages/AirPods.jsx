@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 import LoadingComponent from '../components/loading/LoadingComponent'
-import ProductItemsComponent from '../components/productItems/ProductItemsComponent'
+import ProductItemsComponent from '../components/ProductItems/ProductItemsComponent'
 import airpods from '../constants/airpods.db'
 
 const AirPods = () => {

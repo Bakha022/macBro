@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-import ProductItemsComponent from '../components/productItems/ProductItemsComponent'
+import ProductItemsComponent from '../components/ProductItems/ProductItemsComponent'
 
 import LoadingComponent from '../components/loading/LoadingComponent'
 import iPhone from '../constants/iphone.db'
