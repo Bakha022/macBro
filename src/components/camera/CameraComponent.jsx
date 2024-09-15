@@ -16,7 +16,7 @@ const CameraComponent = () => {
 					</p>
 				</div>
 				<div className={style['app-cam-row']}>
-					<img className={style['mac-top-relama']} src="./mac.png" alt="" />
+					<img className={style['mac-top-relama']} src='./mac.png' alt='' />
 					<div className={style['cam-left']}>
 						<TitleComponent size={32} title={'Hang out with friends'} />
 						<LineComponent heights={5} widths={80} />
@@ -45,6 +45,21 @@ const CameraComponent = () => {
 								<img src='./zoom.svg' alt='zoom-icon' />
 								<p className={style['program-titile-zoom']}>Zoom</p>
 							</div>
+						</div>
+					</div>
+				</div>
+				<div className={style['app-bottom-row']}>
+					<div className={style['bottom-row-left']}>
+						<TitleComponent size={30} title={'Mac for studying'} />
+						<div className={style	['bottom-row-title']}>
+							Study with the fastest devices and without any type of issues
+						</div>
+					</div>
+					<div className={style['bottom-row-right']}>
+						<TitleComponent size={30} title={'We’ve reached 1M users!'} />
+						<div className={style	['bottom-row-title']}>
+						Apple company is glad to see happy
+						customers with pleasure face
 						</div>
 					</div>
 				</div>
