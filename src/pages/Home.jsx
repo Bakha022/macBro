@@ -8,41 +8,41 @@ import TabsComponent from '../components/tabs/TabsComponent'
 import LoadingComponent from './../components/loading/LoadingComponent'
 
 const Home = () => {
-	// const [call, setCall] = useState(false)
+	const [call, setCall] = useState(false)
 
-	// useEffect(() => {
-	// 	setTimeout(() => {
-	// 		setCall(true)
-	// 	}, 500)
-	// })
+	useEffect(() => {
+		setTimeout(() => {
+			setCall(true)
+		}, 500)
+	})
 
-	// if (call) {
-	// 	return (
-	// 		<>
-	// 			<HeroComponent />
-	// 			<AdvantagesComponent />
-	// 			<TabsComponent />
-	// 			<AbilitiesComponent />
-	// 			<CameraComponent />
-	// 		</>
-	// 	)
-	// }
-
-	// return (
-	// 	<>
-	// 		<LoadingComponent />
-	// 	</>
-	// )
+	if (call) {
+		return (
+			<>
+				<HeroComponent />
+				<AdvantagesComponent />
+				<TabsComponent />
+				<AbilitiesComponent />
+				<CameraComponent />
+			</>
+		)
+	}
 
 	return (
 		<>
-			<HeroComponent />
-			<AdvantagesComponent />
-			<TabsComponent />
-			<AbilitiesComponent />
-			<CameraComponent />
+			<LoadingComponent />
 		</>
 	)
+
+	// return (
+	// 	<>
+	// 		<HeroComponent />
+	// 		<AdvantagesComponent />
+	// 		<TabsComponent />
+	// 		<AbilitiesComponent />
+	// 		<CameraComponent />
+	// 	</>
+	// )
 }
 
 export default Home
