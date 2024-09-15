@@ -25,7 +25,7 @@ const AirPods = () => {
 							title={title}
 							price={price}
 							img={img}
-							width={'120px'}
+							width={'90px'}
 						/>
 					))}
 				</div>
