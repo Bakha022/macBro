@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-import ProductItemsComponent from '../components/productItems/ProductItemsComponent'
+import ProductItemsComponent from '../components/ProductItems/ProductItemsComponent'
 
 import LoadingComponent from '../components/loading/LoadingComponent'
 import iPhone from '../constants/iphone.db'
@@ -34,22 +34,22 @@ const Iphone = () => {
 
 	return <LoadingComponent />
 
-		// return (
-		// 	<div className='container'>
-		// 		<div className='row'>
-		// 			{iPhone.map(({ id, discount, title, price, img }) => (
-		// 				<ProductItemsComponent
-		// 					key={id}
-		// 					id={id}
-		// 					discount={discount}
-		// 					title={title}
-		// 					price={price}
-		// 					img={img}
-		// 				/>
-		// 			))}
-		// 		</div>
-		// 	</div>
-		// )
+	// return (
+	// 	<div className='container'>
+	// 		<div className='row'>
+	// 			{iPhone.map(({ id, discount, title, price, img }) => (
+	// 				<ProductItemsComponent
+	// 					key={id}
+	// 					id={id}
+	// 					discount={discount}
+	// 					title={title}
+	// 					price={price}
+	// 					img={img}
+	// 				/>
+	// 			))}
+	// 		</div>
+	// 	</div>
+	// )
 }
 
 export default Iphone
