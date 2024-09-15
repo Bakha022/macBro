@@ -128,3 +128,12 @@ nav {
 		display: block;
 	}
 }
+
+
+
+@media(max-width: 287px) {
+	.nav-row {
+		flex-direction: column;
+		align-items: center;
+	}
+}

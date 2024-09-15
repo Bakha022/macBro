@@ -11,7 +11,7 @@ const MacBook = () => {
 						<div className='card-img'>
 							<img src={img} alt='mac-img' />
 						</div>
-						<p>MacBook Pro</p>
+						<p className='hello-title'>MacBook Pro</p>
 					</div>
 					<p className='hello-text'>
 						Add to Cart
@@ -23,7 +23,7 @@ const MacBook = () => {
 						<div className='card-img'>
 							<img src={img} alt='mac-img' />
 						</div>
-						<p>MacBook Pro</p>
+						<p className='hello-title'>MacBook Pro</p>
 					</div>
 					<p className='hello-text'>
 						Add to Cart
@@ -35,7 +35,7 @@ const MacBook = () => {
 						<div className='card-img'>
 							<img src={img} alt='mac-img' />
 						</div>
-						<p>MacBook Pro</p>
+						<p className='hello-title'>MacBook Pro</p>
 					</div>
 					<p className='hello-text'>
 						Add to Cart
@@ -47,7 +47,7 @@ const MacBook = () => {
 						<div className='card-img'>
 							<img src={img} alt='mac-img' />
 						</div>
-						<p>MacBook Pro</p>
+						<p className='hello-title'>MacBook Pro</p>
 					</div>
 					<p className='hello-text'>
 						Add to Cart
