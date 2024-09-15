@@ -5,35 +5,52 @@ import ProductItemsComponent from '../components/ProductItems/ProductItemsCompon
 import airpods from '../constants/airpods.db'
 
 const AirPods = () => {
-	const [call, setCall] = useState(false)
+	// const [call, setCall] = useState(false)
 
-	useEffect(() => {
-		setTimeout(() => {
-			setCall(true)
-		}, 200)
-	})
+	// useEffect(() => {
+	// 	setTimeout(() => {
+	// 		setCall(true)
+	// 	}, 200)
+	// })
 
-	if (call) {
-		return (
-			<div className='container'>
-				<div className='row'>
-					{airpods.map(({ id, discount, title, price, img }) => (
-						<ProductItemsComponent
-							key={id}
-							id={id}
-							discount={discount}
-							title={title}
-							price={price}
-							img={img}
-							width={'120px'}
-						/>
-					))}
-				</div>
+	// if (call) {
+	// 	return (
+	// 		<div className='container'>
+	// 			<div className='row'>
+	// 				{airpods.map(({ id, discount, title, price, img }) => (
+	// 					<ProductItemsComponent
+	// 						key={id}
+	// 						id={id}
+	// 						discount={discount}
+	// 						title={title}
+	// 						price={price}
+	// 						img={img}
+	// 						width={'120px'}
+	// 					/>
+	// 				))}
+	// 			</div>
+	// 		</div>
+	// 	)
+	// }
+
+	// return <LoadingComponent />
+	return (
+		<div className='container'>
+			<div className='row'>
+				{airpods.map(({ id, discount, title, price, img }) => (
+					<ProductItemsComponent
+						key={id}
+						id={id}
+						discount={discount}
+						title={title}
+						price={price}
+						img={img}
+						width={'120px'}
+					/>
+				))}
 			</div>
-		)
-	}
-
-	return <LoadingComponent />
+		</div>
+	)
 }
 
 export default AirPods
