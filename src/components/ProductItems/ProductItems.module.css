@@ -1,17 +1,24 @@
 .col-3 {
-	background-color: #6a11cb;
+	background-color: #212121ED;
+
 	border-radius: 20px;
 }
 .card {
 	width: 280px;
 	text-align: center;
-	background-color: white;
+	background-color: #363636;
 	border-radius: 20px;
 	padding-bottom: 20px;
 }
 
+
+.mac-title, .action-calc {
+	color: white;
+}
+
 .action {
-	background-color: #6a11cb;
+	background-color: #212121ED;
+
 	display: block;
 	border-top-left-radius: 18px;
 	border-top-right-radius: 18px;

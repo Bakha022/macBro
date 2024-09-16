@@ -7,7 +7,9 @@ import style from './ProductItems.module.css'
 
 const MacItemsComponent = props => {
 	const { id, title, discount, price, img, width } = props
+
 	const discountCalc = price * ((100 - discount) / 100)
+	
 	return (
 		<>
 			<div className={style['col-3']}>
